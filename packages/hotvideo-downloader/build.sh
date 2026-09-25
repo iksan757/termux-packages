@@ -1,9 +1,9 @@
 TERMUX_PKG_NAME=hotvideo-downloader
 TERMUX_PKG_VERSION=1.0.0
-TERMUX_PKG_SHA256=488c17caeaa9f962e23a1949974b97b039b73fb7933ab9fcc8ed91ab629ef138
+TERMUX_PKG_SHA256=4f577a3d213d2440ebffe2c682106d59ceefc95eec7f22337435dc167396cb6d
 TERMUX_PKG_AUTO_UPDATE=true
 TERMUX_PKG_SRCURL=https://github.com/iksan757/pkg-hotvideo-downloader/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
-TERMUX_PKG_DEPENDS="bash yt-dlp aria2 python ffmpeg"
+TERMUX_PKG_DEPENDS="python python-yt-dlp yt-dlp-ejs aria2 ffmpeg"
 TERMUX_PKG_HOMEPAGE=https://github.com/iksan757/pkg-hotvideo-downloader
 TERMUX_PKG_DESCRIPTION="Fast video downloader that extracts direct stream links with custom quality and high-speed DNS"
 TERMUX_PKG_LICENSE="MIT"
